@@ -1,0 +1,313 @@
+body{
+  font-family: 'Exo',sans-serif;
+  background-color: #fff;
+}
+#background_container{
+  position: fixed;
+  top:0%;
+  left:0.25%;
+  z-index: -1;
+  width: 99.5%;
+  height: 100%;
+}
+#front_block{
+  text-align: center;
+  height: 100%;
+  color:#ffc800;
+}
+#tathva_man{
+  height: 50%;
+  margin-top: 2%;
+}
+#tathva_title{
+  font-size: 3em;
+  font-family: 'Tathva';
+  font-weight:400;
+}
+#tathva_tagline{
+  font-weight: 400;
+  font-size: 2em;
+  margin-top:30px;
+  letter-spacing:20px;
+}
+#tathva_date{
+  font-size: 1em;
+  margin-top:10px;
+  font-weight: 200;
+}
+#sap_heading{
+  margin-top:5%;
+  text-align: center;
+  font-size: 3em;
+  transition: all 0.5s;
+}
+
+
+#about_content{
+  text-indent: 40px;
+}
+hr{
+  border-radius: 2px;
+  border-style:outset;
+  border-width: 1px;
+  border-image: linear-gradient(to right, rgba(255,255,255, 0.75), rgba(255, 255, 255, 0), rgba(255,255,255, 0.75));
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(255,255,255, 0.75), rgba(255, 255, 255, 0), rgba(255,255,255, 0.75));
+}
+.number_list{
+  margin-top: 10px;
+  list-style-type: decimal;
+}
+.letter_list{
+  margin-top: 7px;
+  list-style-type: lower-alpha;
+  margin-left: 20px;
+
+}
+.block{
+  vertical-align: middle;
+  background-color: #fff;
+  background-blend-mode:hard-light;
+  opacity: 1;
+  box-shadow: 2px 2px 10px #eee;
+}
+.heading{
+  margin-top:5%;
+  font-size: 3em;
+  text-align: center;
+font-weight: 800;
+}
+.content{
+  margin-top:10%;
+  text-align: justify;
+  width: 80%;
+  font-size: 1.2em;
+  margin-left: 10%;
+}
+.note{
+  font-size: 1.1em;
+  font-weight: 200;
+}
+.form_row{
+  background-color: #fff;
+  text-align: center;
+  padding: 25px;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px #eee;
+}
+.label{
+  margin-bottom: 20px;
+}
+.text_input{
+border-width: 1px;
+border-radius: 5px;
+border-style: solid;
+  width: 95%;
+  margin-left: 2.5%;
+  outline-style: none;
+  box-shadow: 2px 2px 10px #eee;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+.option_input{
+  height:1em;
+  text-align: center;
+}
+.option{
+  padding: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  box-shadow: 2px 2px 10px #eee;
+  transition: all 0.5s;
+  background-color: #fff;
+}
+.option:hover{
+  transform: scale(1.2,1.2);
+}
+.year_option{
+  width:15%;
+  margin: 5px;
+}
+.ba_option{
+  margin: 3px;
+  width:30%;
+}
+.terms_option{
+  margin: 3px;
+  margin-right: 10%;
+  float: right;
+}
+.long_input{
+  height: 5em;
+  width: 95%;
+  margin-left: 2.5%;
+  outline-style: none;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  box-shadow: 2px 2px 10px #eee;
+}
+#terms{
+  text-decoration: underline;
+}
+#registration_heading{
+  padding: 10px;
+  font-size: 3em;
+  font-weight: 800;
+}
+#tc_check{
+  float: left;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 0.25em;
+  border-style: solid;
+}
+#tc_ball{
+  background-color: #fff;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  transition-duration: 2s;
+}
+#submit_trigger{
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  font-size: 40px;
+  margin-top: 20px;
+  border-radius: 5%;
+  width: 50%;
+  margin-left: 25%;
+}
+#top_bar{
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px #000;
+  height: 30px;
+  position: fixed;
+  top:0px;
+  left:0px;opacity: 0.9;
+}
+.topbar_options{
+    margin: 5%;
+    padding: 8px;
+    box-shadow: 2px 2px 10px #eee;
+    font-size: 15px;
+    transition: all 0.1s;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.topbar_options:hover{
+    transform: scale(1.2,1.2);
+    border-style: solid;
+    border-width: 1px;
+    vertical-align:baseline;;
+}
+#tc{
+  border-color: #c82;
+  background-color: #ffc;
+  position: fixed;
+  top:0;
+  display: none;
+}
+#close_tc{
+  position: fixed;
+  left: 10%;
+}
+#contacts{
+  text-align: center;
+  font-size: 2em;
+}
+#contacts_heading{
+  margin-bottom:50px;
+}
+#names{
+  margin: 10px;
+  width: 40%;
+  display: block;
+  float: left;
+}
+#numbers{
+  text-align: left;
+  margin:10px;
+  width: 40%;
+  float: right;
+}
+
+
+
+@keyframes menu_in{
+  0%{
+    left:-40%;
+  }
+  25%{
+    left:-20%;
+  }
+  100%{
+    left:0%;
+  }
+}
+@keyframes menu_out{
+  0%{
+    left:0%;
+  }
+  25%{
+    left:-20%;
+  }
+  100%{
+    left:-40%;
+  }
+}
+.sidebar_out{
+  animation: menu_out 0.5s both ease-out;
+  left:100%;
+}
+.sidebar_in{
+  animation: menu_in 0.5s both ease;
+  left:75%;
+}
+.breaker_sidebar{
+  border: none;
+    height: 1px;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: currentColor;
+}
+
+#sidebar{
+  position: fixed;
+  height: 100%;
+  width: 30%;
+  background: #fff;
+  opacity: 0.8;
+  top: 0;
+  z-index: 1001;
+  text-align: center;
+  font-weight: 200;
+  font-size: 2em;
+}
+#tathva_sidebar{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 60%;
+}
+#dimmer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity:0.8;
+  z-index: 500;
+  display: none;
+}
+#menu_link{
+  position: fixed;
+  left: 20px;
+  top:20px;
+}
