@@ -17,10 +17,7 @@ $v15=$_POST['15'];
 $v16=$_POST['16'];
 $v17=$_POST['17'];
 $sql="INSERT INTO RECORDS VALUES('$v1','$v2','$v3','$v4','$v5','$v6','$v7','$v8','$v9','$v10','$v11','$v12','$v13','$v14','$v15','$v16','$v17','".date("Y/m/d h:i:sa")."');";
-$servername="localhost";
-$username = "nitcfest_clue16";
-$password='Amaljose@96';
-$database= "nitcfest_sap16";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
 // Check connection

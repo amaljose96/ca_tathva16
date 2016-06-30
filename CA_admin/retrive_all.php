@@ -4,10 +4,6 @@ if($pass!=' Thought you were smart. Did you? B)'){
   exit("<script>alert('Dont wander away to prohibited region.');window.location.href='http://tathva.org';</script>");
 }
 $sql="SELECT ID,Name,College,Phone FROM RECORDS";
-$servername="localhost";
-$username = "nitcfest_clue16";
-$password='Amaljose@96';
-$database= "nitcfest_sap16";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
 // Check connection

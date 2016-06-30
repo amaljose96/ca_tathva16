@@ -1,10 +1,6 @@
 <?php
 $id=$_POST['ID'];
 $sql="SELECT * FROM RECORDS WHERE ID=".$id;
-$servername="localhost";
-$username = "nitcfest_clue16";
-$password='Amaljose@96';
-$database= "nitcfest_sap16";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
 // Check connection
